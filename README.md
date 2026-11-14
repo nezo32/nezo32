@@ -8,7 +8,7 @@ Until recently I was also at Sber (SberInfra), leading a team of 8 on internal p
 
 I write code with Claude Code every day. One agent plans, another implements, a third reviews independently, and tests decide what gets merged. The architecture and what ships are still on me.
 
-I'm open to remote or hybrid contract work through my Armenian sole proprietorship.
+I'm open to remote or hybrid roles, full-time or contract.
 
 **Stack:** TypeScript, Go, React, Next.js, Vue, Nuxt, Node.js, NestJS, gRPC, GraphQL, PostgreSQL, Redis, Docker, Kubernetes, Playwright, Stripe, LLM APIs (RAG, tool calling)
 
