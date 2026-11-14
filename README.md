@@ -14,6 +14,7 @@ I'm open to remote or hybrid contract work through my Armenian sole proprietorsh
 
 ## Projects
 
+- **[claude-code-setup](https://github.com/nezo32/claude-code-setup)**: the Claude Code configuration I actually work with. 14 role agents pinned to models by how costly a mistake is, orchestration and team-lead skills (plan, parallel implementation, independent and adversarial review, tests as gates), skills that keep long autonomous sessions alive across context compaction, and guard hooks. Pulled from three real projects and stripped of anything project-specific.
 - **[family-hub](https://github.com/nezo32/family-hub)**: a self-hosted family PWA. Chores with fair rotation, a calendar you can subscribe to over ICS, a savings ledger, shopping lists that work offline, and web push that works on iPhone. pnpm monorepo in TypeScript with Drizzle, Postgres and Redis queues; about 100 test files including Playwright e2e, CI/CD, and architecture and decision docs. The UI is in Russian, code and docs in English.
 - **[Locaita](https://github.com/nezo32/Locaita)**: a Soft Actor-Critic reinforcement-learning agent that plays osu!. It reads game state from a patched osu!lazer over WebSocket, captures the screen and moves the mouse. Python 3.13, PyTorch, uv.
 - **[locaita-voice-module](https://github.com/nezo32/locaita-voice-module)**: a local voice companion for Discord and Telegram. whisper.cpp for speech-to-text, an Ollama LLM, F5-TTS for the voice, Supabase for memory. TypeScript.
