@@ -1,27 +1,25 @@
-# Hi, I'm Nikita 👋
+# Nikita Schepetkov
 
-**Senior Full-Stack Engineer · AI-native** — Yerevan, Armenia (UTC+4)
+Senior full-stack engineer based in Yerevan, Armenia (UTC+4). I've been building web products for 9 years, from the UI down to deployment: React/Next.js and Vue/Nuxt on the frontend, Node.js/NestJS and Go on the backend, Docker and Kubernetes in production.
 
-I've been shipping production web products end-to-end for 9 years: React / Next.js and Vue / Nuxt on the frontend, Node.js and Go on the backend, Docker and Kubernetes in production. Lately I build LLM features (RAG, tool-calling agents, MCP) and develop with AI agents every day. I run multi-agent pipelines for planning, implementation and independent review, with strict quality gates.
+These days I work at Leino, an AI meeting-intelligence SaaS. Its bot joins Google Meet, Zoom and Yandex Telemost calls and records them. I work on that bot, the RAG pipeline and tool-calling agents that answer questions about recordings, and Stripe billing in the Go gateway.
 
-- 🔭 Now: an AI meeting-intelligence SaaS (recording bot, RAG, agents, Stripe billing in Go)
-- 👥 Previously: team lead of 8 at Sber (SberInfra): gRPC + GraphQL architecture for internal cloud products
-- 💼 Open to remote / hybrid contract roles (Armenian sole proprietorship)
-- 📫 [nezo.prod32@gmail.com](mailto:nezo.prod32@gmail.com) · Telegram [@nz3301](https://t.me/nz3301)
+Until recently I was also at Sber (SberInfra), leading a team of 8 on internal products for ordering cloud resources. I designed the contract-first architecture there: gRPC between services, GraphQL to the Vue frontend.
 
-### Stack
-`TypeScript` `React` `Next.js` `Vue` `Nuxt` `Node.js` `NestJS` `Go` `gRPC` `GraphQL` `PostgreSQL` `Redis` `Docker` `Kubernetes` `Playwright` `Vitest`
-`LLM / RAG` `Tool calling` `Agents` `MCP` `Claude Code` `OpenAI` `Stripe`
+I write code with Claude Code every day. One agent plans, another implements, a third reviews independently, and tests decide what gets merged. The architecture and what ships are still on me.
 
-### Selected projects
-| Project | What it is |
-|---|---|
-| [family](https://github.com/nezo32/family) | Self-hosted family PWA: shared chores with fair rotation, calendar, savings goals, shopping lists, push notifications that actually arrive on iPhone |
-| [Locaita](https://github.com/nezo32/Locaita) | Multi-module AI project: reinforcement learning for osu!, plus a [voice module](https://github.com/nezo32/locaita-voice-module) (Whisper STT + local LLM) |
-| [luminara](https://github.com/nezo32/luminara) | End-to-end encrypted messaging over WebSocket |
-| [sudoku](https://github.com/nezo32/sudoku) | Full-stack sudoku: Vue, Node.js, Go, PostgreSQL |
-| [Burmaldaholic](https://github.com/nezo32/burmaldaholic) | A casino economy game mode for Minecraft: card games, slots, PvP duels, bots, loans and debt collectors |
+I'm open to remote or hybrid contract work through my Armenian sole proprietorship.
 
-<!-- TODO: once the Claude Code setup repo is published, add it as the first row:
-| [claude-code-setup](https://github.com/nezo32/...) | My AI-native dev environment: multi-agent pipeline, custom skills and hooks, model routing by role |
--->
+**Stack:** TypeScript, Go, React, Next.js, Vue, Nuxt, Node.js, NestJS, gRPC, GraphQL, PostgreSQL, Redis, Docker, Kubernetes, Playwright, Stripe, LLM APIs (RAG, tool calling)
+
+## Projects
+
+- **[family-hub](https://github.com/nezo32/family-hub)**: a self-hosted family PWA. Chores with fair rotation, a calendar you can subscribe to over ICS, a savings ledger, shopping lists that work offline, and web push that works on iPhone. pnpm monorepo in TypeScript with Drizzle, Postgres and Redis queues; about 100 test files including Playwright e2e, CI/CD, and architecture and decision docs. The UI is in Russian, code and docs in English.
+- **[Locaita](https://github.com/nezo32/Locaita)**: a Soft Actor-Critic reinforcement-learning agent that plays osu!. It reads game state from a patched osu!lazer over WebSocket, captures the screen and moves the mouse. Python 3.13, PyTorch, uv.
+- **[locaita-voice-module](https://github.com/nezo32/locaita-voice-module)**: a local voice companion for Discord and Telegram. whisper.cpp for speech-to-text, an Ollama LLM, F5-TTS for the voice, Supabase for memory. TypeScript.
+- **[anki-kanji-importer](https://github.com/nezo32/anki-kanji-importer)**: a Bun CLI that parses vocabulary PDFs and turns them into kanji flashcards in Anki, via an OpenAI-compatible API and AnkiConnect.
+- **Minecraft game modes** (Fabric/Java, some also on Bedrock): [burmaldaholic](https://github.com/nezo32/burmaldaholic) (casino economy with card games, slots, loans and debt collectors), [enchantaholic](https://github.com/nezo32/enchantaholic), [absorbaholic](https://github.com/nezo32/absorbaholic), [echoaholic](https://github.com/nezo32/echoaholic), [chaosaholic](https://github.com/nezo32/chaosaholic), [munchaholic](https://github.com/nezo32/munchaholic). Each has GameTest suites and a reusable CI pipeline that publishes releases to CurseForge and Modrinth.
+
+## Contact
+
+[nezo.prod32@gmail.com](mailto:nezo.prod32@gmail.com) · Telegram [@nz3301](https://t.me/nz3301)
